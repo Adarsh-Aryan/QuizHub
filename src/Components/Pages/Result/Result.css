@@ -6,3 +6,10 @@
     font-size: 4vw;
     flex-direction: column;
 }
+
+
+@media only screen and (max-width:750px){
+    .result{
+        font-size: 8vw;
+    }
+}
