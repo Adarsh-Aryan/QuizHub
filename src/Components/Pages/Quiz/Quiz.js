@@ -38,6 +38,7 @@ const Quiz = () => {
 
     useEffect(() => {
         
+        setError(false)
         
         handleOptions()
         
