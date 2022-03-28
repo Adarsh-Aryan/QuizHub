@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.quiz_settings{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+
+.home > img{
+    width: 55%;
+}
+
+@media only screen and (max-width:800px){
+    .home{
+        flex-direction: column-reverse;
+        
+    }
+    .home >img{
+        width: 100%;
+    }
+    .quiz_settings{
+        width: 100%;
+        justify-content: center;
+        font-size: 2.5vw;
+        
+    }
+}
+

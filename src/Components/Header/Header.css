@@ -1,0 +1,9 @@
+.header{
+    text-align: center;
+}
+
+.title{
+    font-size: 6vw;
+    margin: 0.5rem 0rem;
+    cursor: pointer;
+}
